@@ -1,0 +1,60 @@
+{
+ "urls": [
+  {
+   "url": "https://yqx.imgos.cn/yqx/tv/duo.json",
+   "name": "多仓 · 134子仓"
+  },
+  {
+   "url": "http://ztha.top/TVBox/GYCK.json",
+   "name": "挺好 · 32子仓"
+  },
+  {
+   "url": "https://www.iyouhun.com/tv/wex",
+   "name": "新接口 · 63站"
+  },
+  {
+   "url": "http://47.96.82.41:5188/api.json",
+   "name": "软件小哥哥 · 90站"
+  },
+  {
+   "url": "http://124.71.19.220/c/1",
+   "name": "影视仓 · 38站"
+  },
+  {
+   "url": "https://9280.kstore.vip/wex.json",
+   "name": "王二小三代 · 63站"
+  },
+  {
+   "url": "http://ztha.top/TVBox/thdjk.json",
+   "name": "挺好 · 46站"
+  },
+  {
+   "url": "https://9280.kstore.vip/newwex.json",
+   "name": "王二小 · 99站"
+  },
+  {
+   "url": "https://6800.kstore.vip/fish.json",
+   "name": "摸鱼 · 97站"
+  },
+  {
+   "url": "https://szyyds.cn/tv/x.json",
+   "name": "小马 · 62站"
+  },
+  {
+   "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
+   "name": "魔力云播 · 39站"
+  },
+  {
+   "url": "https://cnb.cool/fish2035/xs/-/git/raw/main/api.json",
+   "name": "潇洒 · 127站"
+  },
+  {
+   "url": "https://700sjro44343.vicp.fun/vip/2505/qiezi/tv.php",
+   "name": "茄子库 · 39站"
+  },
+  {
+   "url": "https://jijietvbox.lol/jieluntan-cns.json",
+   "name": "莱妮丝 · 55站"
+  }
+ ]
+}
