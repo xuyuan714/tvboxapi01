@@ -12,13 +12,13 @@
 
 | 用途 | 地址 |
 |---|---|
-| 全量（推荐） | `https://raw.githubusercontent.com/xuyuan714/tvboxapi01/main/config.json` |
-| 全量（jsDelivr 加速） | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/config.json` |
+| 全量（推荐，国内可用） | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/config.json` |
 | 全量（ghproxy 加速） | `https://ghproxy.net/https://raw.githubusercontent.com/xuyuan714/tvboxapi01/main/config.json` |
-| 精简（14 条，加载快） | `https://raw.githubusercontent.com/xuyuan714/tvboxapi01/main/config-lite.json` |
-| 直播源 | `https://raw.githubusercontent.com/xuyuan714/tvboxapi01/main/live.json` |
+| 全量（GitHub 原生） | `https://raw.githubusercontent.com/xuyuan714/tvboxapi01/main/config.json` |
+| 精简（14 条，加载快） | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/config-lite.json` |
+| 直播源 | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/live.json` |
 
-> 国内直连 `raw.githubusercontent.com` 经常超时，优先用 jsDelivr 或 ghproxy 那两条。
+> `raw.githubusercontent.com` 在国内经常被直接掐断（实测超时 / RemoteDisconnected），优先用前两条。jsDelivr 对 `@main` 有约 12 小时缓存，刚改完配置可能要等一会儿才生效，急用就加 `?t=时间戳` 或换 ghproxy。
 
 ## 文件
 
