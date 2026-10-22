@@ -1,0 +1,72 @@
+{
+ "urls": [
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/jige.json",
+   "name": "本仓·jige · 70站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/lige.json",
+   "name": "本仓·lige · 108站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/merged.json",
+   "name": "本仓·merged · 104站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/mufeng.json",
+   "name": "本仓·mufeng · 24站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/ok线路.js",
+   "name": "本仓·ok线路 · 78站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/qiaoji01.json",
+   "name": "本仓·qiaoji01 · 35站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/tianwei.json",
+   "name": "本仓·tianwei · 125站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/tinghao.json",
+   "name": "本仓·tinghao · 4站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/wangxiaoer.js",
+   "name": "本仓·wangxiaoer · 88站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/workstv.json",
+   "name": "本仓·workstv · 50站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/yilongjiexi.json",
+   "name": "本仓·yilongjiexi · 22站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/ylkjhbty.json",
+   "name": "本仓·ylkjhbty · 71站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/巧记.json",
+   "name": "本仓·巧记 · 108站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/毒盒.json",
+   "name": "本仓·毒盒 · 114站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/肥猫.js",
+   "name": "本仓·肥猫 · 61站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/讴歌.js",
+   "name": "本仓·讴歌 · 108站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/duocang.json",
+   "name": "本仓·duocang · 多仓36"
+  }
+ ]
+}
