@@ -1,6 +1,10 @@
 {
  "urls": [
   {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/duocang.json",
+   "name": "本仓·duocang · 36子仓"
+  },
+  {
    "url": "https://yqx.imgos.cn/yqx/tv/duo.json",
    "name": "多仓 · 134子仓"
   },
@@ -15,6 +19,70 @@
   {
    "url": "https://700sjro44343.vicp.fun/vip/2505/qiezi/duo.txt",
    "name": "茄子库 · 1子仓"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/tianwei.json",
+   "name": "本仓·tianwei · 125站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/%E6%AF%92%E7%9B%92.json",
+   "name": "本仓·毒盒 · 114站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/lige.json",
+   "name": "本仓·lige · 108站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/%E5%B7%A7%E8%AE%B0.json",
+   "name": "本仓·巧记 · 108站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/%E8%AE%B4%E6%AD%8C.js",
+   "name": "本仓·讴歌 · 108站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/merged.json",
+   "name": "本仓·merged · 104站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/wangxiaoer.js",
+   "name": "本仓·wangxiaoer · 88站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/ok%E7%BA%BF%E8%B7%AF.js",
+   "name": "本仓·ok线路 · 78站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/ylkjhbty.json",
+   "name": "本仓·ylkjhbty · 71站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/jige.json",
+   "name": "本仓·jige · 70站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/%E8%82%A5%E7%8C%AB.js",
+   "name": "本仓·肥猫 · 61站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/workstv.json",
+   "name": "本仓·workstv · 50站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/qiaoji01.json",
+   "name": "本仓·qiaoji01 · 35站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/mufeng.json",
+   "name": "本仓·mufeng · 24站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/yilongjiexi.json",
+   "name": "本仓·yilongjiexi · 22站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/tinghao.json",
+   "name": "本仓·tinghao · 4站"
   },
   {
    "url": "https://www.iyouhun.com/tv/wex",
@@ -66,7 +134,7 @@
   },
   {
    "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.cc",
-   "name": "摸鱼 · 97站"
+   "name": "摸鱼 · 97站 (2)"
   },
   {
    "url": "https://jijietvbox.lol/jieluntan-jinyu.json",
@@ -78,7 +146,7 @@
   },
   {
    "url": "http://new.999888987.xyz/",
-   "name": "王二小三代 · 99站"
+   "name": "王二小三代 · 99站 (2)"
   },
   {
    "url": "http://www.xn--5mqx81b535a.com",
@@ -86,19 +154,19 @@
   },
   {
    "url": "http://new.xn--4kq62z5rby2qupq9ub.top",
-   "name": "王二小三代 · 99站"
+   "name": "王二小三代 · 99站 (3)"
   },
   {
    "url": "https://700sjro44343.vicp.fun/240731/one/",
-   "name": "影视仓 · 41站"
+   "name": "影视仓 · 41站 (2)"
   },
   {
    "url": "http://xn--5mqx81b535a.com/",
-   "name": "影视仓 · 41站"
+   "name": "影视仓 · 41站 (3)"
   },
   {
    "url": "https://jijietvbox.lol/jieluntan-xiaoma.json",
-   "name": "小马 · 62站"
+   "name": "小马 · 62站 (2)"
   },
   {
    "url": "https://jijietvbox.lol/jieluntan-cns.json",
@@ -118,23 +186,23 @@
   },
   {
    "url": "http://ai.xn--4kq62z5rby2qupq9ub.top/",
-   "name": "王二小三代 · 99站"
+   "name": "王二小三代 · 99站 (4)"
   },
   {
    "url": "https://jijietvbox.lol/xiaosha.json",
-   "name": "潇洒 · 127站"
+   "name": "潇洒 · 127站 (2)"
   },
   {
    "url": "http://new.999888123.xyz/",
-   "name": "王二小三代 · 99站"
+   "name": "王二小三代 · 99站 (5)"
   },
   {
    "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
-   "name": "王二小 · 63站"
+   "name": "王二小 · 63站 (2)"
   },
   {
    "url": "http://tv.999888987.xyz/",
-   "name": "王二小 · 63站"
+   "name": "王二小 · 63站 (3)"
   },
   {
    "url": "http://vip.boluo.live",
@@ -142,7 +210,7 @@
   },
   {
    "url": "https://jijietvbox.lol/jieluntan-n2.json",
-   "name": "王二小 · 63站"
+   "name": "王二小 · 63站 (4)"
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/嗷呜.json",
@@ -154,15 +222,15 @@
   },
   {
    "url": "https://jijietvbox.lol/jieluntan-ner.json",
-   "name": "王二小 · 63站"
+   "name": "王二小 · 63站 (5)"
   },
   {
    "url": "http://boluo.live",
-   "name": "茄子库 · 43站"
+   "name": "茄子库 · 43站 (2)"
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/小马.json",
-   "name": "小马 · 62站"
+   "name": "小马 · 62站 (3)"
   },
   {
    "url": "https://qist.wyfc.qzz.io/jsm.json",
@@ -174,7 +242,7 @@
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/挺好.json",
-   "name": "挺好 · 46站"
+   "name": "挺好 · 46站 (2)"
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/东篱.json",
@@ -206,7 +274,7 @@
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/摸鱼.json",
-   "name": "摸鱼 · 97站"
+   "name": "摸鱼 · 97站 (3)"
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/集多.json",
@@ -218,11 +286,11 @@
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/肥猫.json",
-   "name": "肥猫 · 40站"
+   "name": "肥猫 · 40站 (2)"
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/王二小.json",
-   "name": "王二小 · 99站"
+   "name": "王二小 · 99站 (2)"
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/潇洒.json",
@@ -234,7 +302,7 @@
   },
   {
    "url": "https://0.12yue.de5.net/tvbox/聚玩.json",
-   "name": "聚玩盒子 · 54站"
+   "name": "聚玩盒子 · 54站 (2)"
   }
  ]
 }
