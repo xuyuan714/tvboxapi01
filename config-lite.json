@@ -1,6 +1,18 @@
 {
  "urls": [
   {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/tianwei.json",
+   "name": "本仓·tianwei · 125站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/%E6%AF%92%E7%9B%92.json",
+   "name": "本仓·毒盒 · 114站"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/lige.json",
+   "name": "本仓·lige · 108站"
+  },
+  {
    "url": "https://yqx.imgos.cn/yqx/tv/duo.json",
    "name": "多仓 · 134子仓"
   },
@@ -43,18 +55,6 @@
   {
    "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
    "name": "魔力云播 · 39站"
-  },
-  {
-   "url": "https://cnb.cool/fish2035/xs/-/git/raw/main/api.json",
-   "name": "潇洒 · 127站"
-  },
-  {
-   "url": "https://700sjro44343.vicp.fun/vip/2505/qiezi/tv.php",
-   "name": "茄子库 · 39站"
-  },
-  {
-   "url": "https://jijietvbox.lol/jieluntan-cns.json",
-   "name": "莱妮丝 · 55站"
   }
  ]
 }
