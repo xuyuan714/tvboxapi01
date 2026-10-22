@@ -12,8 +12,10 @@
 
 | 用途 | 地址 |
 |---|---|
+| **xu1022 合并单仓（379 站，一个文件）** | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/xu1022.json` |
 | **精简（推荐日常用）** | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/config-lite.json` |
-| 全量（76 条，首载较慢） | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/config.json` |
+| 全量多仓（76 条） | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/config.json` |
+| 仓内源多仓（xu1022 的兜底） | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/xu1022-duo.json` |
 | 直播源 | `https://cdn.jsdelivr.net/gh/xuyuan714/tvboxapi01@main/live.json` |
 | 全量（ghproxy 备用） | `https://ghproxy.net/https://raw.githubusercontent.com/xuyuan714/tvboxapi01/main/config.json` |
 | 全量（GitHub 原生，国内常不通） | `https://raw.githubusercontent.com/xuyuan714/tvboxapi01/main/config.json` |
@@ -25,6 +27,9 @@
 
 | 文件 | 说明 |
 |---|---|
+| `xu1022.json` | **合并单仓**：把仓内 16 个配置文件去重合并，379 个可用站点全在一个文件里，站点级 `jar` 已注入 |
+| `xu1022-duo.json` | 同批源的多仓版，兜底用（合并版打不开时换这个） |
+| `xu1022-测试报告.csv` | 每个源的原站点数 / 最终保留 / 丢弃原因 |
 | `config.json` | 全量多仓入口，76 条。顺序：本仓多仓 → 外部多仓 → 本仓单仓（按站点数）→ 外部单仓（按响应速度） |
 | `config-lite.json` | 精选 14 条，日常用这个 |
 | `live.json` | 直播源：本仓 4Gtv.m3u、频道表 M3U、咪咕、央视卫视 TXT |
@@ -35,6 +40,25 @@
 | `scripts/build_pack.py` | 按探测结果重建配置，并自动把本仓根目录的 `*.json/*.js/*.m3u` 收进入口 |
 | `README-legacy.md` | 原 README 备份（Cloudflare Worker 路由说明） |
 | `4Gtv.m3u` `duocang.json` `lige.json` `merged.json` `tianwei.json` `毒盒.json` `巧记.json` `讴歌.json` `肥猫.js` `ok线路.js` … | 仓库原有配置，已被自动纳入 `config.json` |
+
+## xu1022 是怎么合出来的
+
+仓内 16 个配置文件共 **1170 个站点**，去重 + 实测后保留 **379 个**：
+
+| 环节 | 数量 |
+|---|---|
+| 原始站点 | 1170 |
+| 丢弃：依赖的 jar 已死（404/401/502/相对路径） | 700 |
+| 丢弃：与前面源完全重复（同一 api + 同名） | 83 |
+| 丢弃：api 实测死链（ikun/卧龙/如意/金蝉/木耳） | 8 |
+| **最终保留** | **379**（type3 330 + type0 32 + type1 17） |
+
+关键技术点：**站点级 `jar`**。TVBox 的 `Site` 支持单站点自己的 `jar` 字段，合并时把每个站点原来所属配置的 `spider` 注入到站点上，这样 16 套不同 jar 的站点才能共存于一个文件，而不是只认全局那一个。
+
+三个源被整批丢弃，原因值得记一下：
+
+- `jige.json`（70 站）、`tianwei.json`（109 站）：全局 jar 写的是 **相对路径** `./机哥.png`、`./kjtw.jar`，仓库里没有这两个文件。**把 jar 补到仓库根目录就能复活这 179 站**，这是目前最大的一块可回收收益。
+- `毒盒.json`（110 站）、`ok线路.js`（77 站）：jar 在 `tv.youdu.fan:666`、`pan.qingyuji.cn`，我这边出口代理挡了非常规端口，测不了。可能你本地是好的，所以它们保留在 `xu1022-duo.json` 里，只没进合并版。
 
 ## 关于原有的 Cloudflare Worker
 
