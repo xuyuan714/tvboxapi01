@@ -1,0 +1,22 @@
+{
+ "lives": [
+  {
+   "name": "直播频道表 M3U",
+   "type": 0,
+   "url": "http://47.120.41.246:8025/vip/jar/zb.php",
+   "playerType": 1
+  },
+  {
+   "name": "Migu 咪咕（gh 代理）",
+   "type": 0,
+   "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/cyh92/live/refs/heads/main/source/migu.m3u",
+   "playerType": 1
+  },
+  {
+   "name": "央视卫视 TXT",
+   "type": 0,
+   "url": "https://ds65.tv1288.xyz",
+   "playerType": 1
+  }
+ ]
+}
